@@ -16,6 +16,7 @@
 
     "background": {
         "scripts": [ "background.js" ],
+        "js": ["content.js"],
         "type": "module"
     },
 
