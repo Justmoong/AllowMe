@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Anti-RightClick",
+  "name": "Allow Me",
   "version": "1.0",
   "description": "Enable Right Click & Text Selection",
   "permissions": ["activeTab"],
@@ -15,10 +15,14 @@
       "run_at": "document_start"
     }
   ],
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "anti-rightclick@safari.extension"
-    }
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+        },
+        "default_title": "Allow Me"
   }
 }
 

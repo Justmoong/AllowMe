@@ -1,5 +1,5 @@
 // content.js
-(function() {
+function() {
     'use strict';
     
     document.addEventListener('contextmenu', function(event) {
@@ -19,4 +19,4 @@
         document.body.ondragstart = null;
         document.body.onselectstart = null;
     }
-})();
+}();
